@@ -3,10 +3,7 @@ const buttons = document.querySelectorAll('.control');
 const range = document.querySelector('#range');
 const rangeLabel = document.querySelector('.range_label');
 const sketchBoard = document.querySelector('.panel__sketchboard');
-
-function generate_squares() {
-    pass;
-}
+const squares = document.querySelectorAll('.square')
 
 
 buttons.forEach((button) => {
@@ -20,5 +17,6 @@ buttons.forEach((button) => {
 range.addEventListener('change', () => {
     rangeLabel.textContent = `${range.value}x${range.value}`;
 })
+
 
 
