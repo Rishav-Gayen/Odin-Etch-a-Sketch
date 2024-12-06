@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/style.css">
+
+    <!-- Roboto Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Etch a Sketch</title>
 </head>
 <body>
-    <h1>Etch a Sketch App</h1>
+    <h1 class="title">Etch a Sketch</h1>
+    <div class="panel">
+        <div class="panel__controls">
+            <div class="controls__color">
+                <label for="color" class="choose">Choose color</label>
+                <input type="color" name="color" id="color" value = "#333333">
+            </div>
+
+            <button class="control controls__random">Random Color</button>
+
+            <button class="control controls__eraser">Eraser</button>
+
+            <button class="control controls__clear">Clear</button>
+
+            <div class="controls__range">
+                <label for="range" class="range_label"></label>
+                <input type="range" name="range" id="range" value = "16" min = "1" max = "64">
+            </div>
+            
+        </div>
+
+        <div class="panel__sketchboard"></div>
+    </div>
+    
+    
+    <script src="script.js"></script>
 </body>
 </html>
