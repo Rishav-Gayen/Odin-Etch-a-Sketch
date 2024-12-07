@@ -71,7 +71,6 @@ body {
 
 .square {
     background-color: #fff;
-    border: 1px solid #fff;
     box-sizing: border-box;
     margin: 0;
     flex: 1 0 auto;
