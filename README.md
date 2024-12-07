@@ -6,3 +6,7 @@ It was a challenging project, but I got to learn a lot of things and how to orga
 # Technologies used
 
 HTML, CSS and Javascript
+
+# Link 
+
+https://rishav-gayen.github.io/Odin-Etch-a-Sketch/
